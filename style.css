@@ -1,0 +1,127 @@
+:root {
+	background-color: rgba(102, 128, 153, 0.5);
+	font-family: Courier, monospace;
+	
+}
+
+header {
+	
+	width: 100%;
+	text-align: center;
+	color: #602040;
+	font-size: 26px;
+}
+
+header > h1 {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.menu {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+    justify-content: center;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.menu ul li {
+	display: inline-block;
+	text-decoration: none;
+	list-style: none;
+	background: -webkit-linear-gradient(top, #666699 0%, #669999 50%, #666699 100%);
+    background: -moz-linear-gradient(top, #666699 0%, #669999 50%, #666699 100%);
+    background: -ms-linear-gradient(top, #666699 0%, #669999 50%, #666699 100%);
+    background: linear-gradient(top, #666699 0%, #669999 50%, #666699 100%);
+	box-shadow: 10px 10px 5px rgba(138, 102, 153, 0.9);
+}
+
+.menu ul li a {
+	color: #e0ebeb;
+	text-decoration: none;
+	font-size: 22px;
+	padding: 5px 10px 5px 10px;
+
+}
+
+a:visited, .menu ul li a:hover {
+	color: #00264d;
+}
+
+.main {
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+	flex-direction: column;
+}
+
+.main a {
+	font-size: 22px;
+	color: #602040;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.main div p {
+	text-align: justify;
+	color: #602040;
+	text-indent: 45px;
+	border: 1px solid rgb(138, 102, 153);
+	background-color: #FFFFCC;
+	box-shadow: 7px 7px 4px rgba(138, 102, 153, 0.6);
+}
+
+.foot {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 100%;
+	background: -webkit-linear-gradient(top, #666699 0%, #669999 50%, #666699 100%);
+    background: -moz-linear-gradient(top, #666699 0%, #669999 50%, #666699 100%);
+    background: -ms-linear-gradient(top, #666699 0%, #669999 50%, #666699 100%);
+    background: linear-gradient(top, #666699 0%, #669999 50%, #666699 100%);
+    color: #e0ebeb;
+}
+
+.foot span:only-of-type {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #cc6699;
+} 
+
+.foot p:first-of-type {
+	font-size: 22px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.foot p, .foot span {
+	text-align: center;
+
+}
+
+a[href$=home] {
+            color: #A86699;
+            font-size: 14px;
+            text-decoration: none;
+            font-family: impact;
+            font-weight: bold;
+}
